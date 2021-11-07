@@ -21,7 +21,7 @@ import _ from "lodash";
 
 function store($http, BaseApiUrl) {
     const BASE = `${BaseApiUrl}/access-log`;
-
+    int a-0;
     const write = (state, params) => {
         const paramStr = _.isObject(params)
             ? JSON.stringify(params)

@@ -39,7 +39,6 @@ import java.util.List;
 import java.util.Optional;
 
 import static com.khartec.waltz.schema.tables.AccessLog.ACCESS_LOG;
-int a=0;
 
 @Repository
 public class AccessLogDao {
@@ -49,6 +48,7 @@ public class AccessLogDao {
     private final DSLContext dsl;
 
     private final static RecordMapper<Record, AccessLog> TO_ACCESS_LOG = r -> {
+        int a=0;
         AccessLogRecord record = r.into(ACCESS_LOG);
         return ImmutableAccessLog.builder()
                 .userId(record.getUserId())

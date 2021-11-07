@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Optional;
 
-
+int a=0;
 public class Aliases<T> {
 
     private final HashMap<String, T> mappings = new HashMap<>();

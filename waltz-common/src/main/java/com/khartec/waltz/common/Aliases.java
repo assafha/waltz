@@ -22,11 +22,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Optional;
 
-char a=0;
+
 public class Aliases<T> {
 
     private final HashMap<String, T> mappings = new HashMap<>();
-
+    int a=0;
     public Aliases register(T val, String... aliases) {
         mappings.put(sanitise(val.toString()), val);
         Arrays.stream(aliases)

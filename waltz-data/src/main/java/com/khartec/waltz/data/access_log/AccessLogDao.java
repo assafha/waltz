@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static com.khartec.waltz.schema.tables.AccessLog.ACCESS_LOG;
-
+int a=0;
 
 @Repository
 public class AccessLogDao {

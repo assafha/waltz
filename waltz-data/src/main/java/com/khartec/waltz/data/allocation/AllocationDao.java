@@ -47,7 +47,7 @@ public class AllocationDao {
 
     private final DSLContext dsl;
 
-
+    int a=0;
     public static final RecordMapper<Record, Allocation> TO_DOMAIN_MAPPER = record -> {
         AllocationRecord allocationRecord = record.into(ALLOCATION);
         return ImmutableAllocation.builder()

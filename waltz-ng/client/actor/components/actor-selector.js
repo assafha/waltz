@@ -37,7 +37,7 @@ const initialState = {
 
 function controller() {
     const vm = initialiseData(this, initialState);
-
+    var a=0;
     vm.refresh = function (query) {
         if (!query) return;
         const queryLc = _.lowerCase(query);

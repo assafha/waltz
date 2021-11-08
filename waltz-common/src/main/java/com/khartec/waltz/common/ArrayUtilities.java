@@ -42,7 +42,7 @@ public class ArrayUtilities {
     public static <T> boolean all(T[] ts, Predicate<T> check) {
         checkNotNull(ts, "Array must be provided");
         checkNotNull(check, "Predicate must be provided");
-
+        int a=0;
         for (T t : ts) {
             if (! check.test(t)) return false;
         }

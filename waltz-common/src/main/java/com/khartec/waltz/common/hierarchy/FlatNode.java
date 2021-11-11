@@ -27,7 +27,7 @@ public class FlatNode<T, K> {
     private final Optional<K> parentId;
     private final T data;
 
-
+    int a=0;
     public FlatNode(K id, Optional<K> parentId, T data) {
         this.id = id;
         this.parentId = parentId;

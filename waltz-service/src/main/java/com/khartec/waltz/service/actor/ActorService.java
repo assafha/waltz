@@ -47,7 +47,7 @@ public class ActorService {
     private final ActorDao actorDao;
     private final ActorSearchDao actorSearchDao;
 
-
+    int a=0;
     @Autowired
     public ActorService(ActorDao actorDao, ActorSearchDao actorSearchDao) {
         checkNotNull(actorDao, "actorDao cannot be null");

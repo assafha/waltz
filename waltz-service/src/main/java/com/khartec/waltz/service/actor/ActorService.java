@@ -42,12 +42,15 @@ import static java.util.Collections.emptyList;
 import static java.util.stream.Collectors.toList;
 
 @Service
-public class ActorService {
+    public class Assaf {
+        int a = 1;
+    }
+    public class ActorService {
 
     private final ActorDao actorDao;
     private final ActorSearchDao actorSearchDao;
 
-    int a=0;
+    
     @Autowired
     public ActorService(ActorDao actorDao, ActorSearchDao actorSearchDao) {
         checkNotNull(actorDao, "actorDao cannot be null");
